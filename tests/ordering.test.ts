@@ -32,7 +32,6 @@ test("order test", async () => {
     await homePage.showRestaurants();
     await orderPage.clickTajMahal();
     await orderPage.selectFood();
-    await orderPage.addExtraMeal();
     await orderPage.addFoodCart();
 }, 30000);
 
