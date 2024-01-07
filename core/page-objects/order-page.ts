@@ -23,10 +23,6 @@ export class OrderPage extends BasePage {
         await this.findElementAndClick(this.tikkaMasala);
         await this.driver.sleep(1500);
     }
-    async addExtraMeal() {
-        await this.findElementAndClick(this.butterNaan);
-        await this.driver.sleep(1500);
-    }
     async addFoodCart() {
         await this.findElementAndClick(this.addFood);
         await this.driver.sleep(1500);
