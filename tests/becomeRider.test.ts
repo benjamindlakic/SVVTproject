@@ -3,19 +3,16 @@ import { createDriver } from "../core/config/driver-setup";
 import { readFileSync } from "fs";
 import * as path from "path";
 import { HomePage } from "../core/page-objects/home-page";
-import { RiderPage } from "../core/page-objects/rider-page";
 
 const dataFilePath = path.resolve(__dirname, "../core/data/data.json");
 const testData = JSON.parse(readFileSync(dataFilePath, "utf8"));
 
 let driver: WebDriver;
 let homePage: HomePage;
-let riderPage: RiderPage;
 
 beforeAll(async () => {
     driver = await createDriver(testData.url.home_page);
     homePage = new HomePage(driver);
-    riderPage = new RiderPage(driver);
 }, 10000);
 
 test("becoming a rider", async () => {
