@@ -1,0 +1,41 @@
+{
+    "url": {
+        "home_page": "https://glovoapp.com/"
+    },
+    "data": {
+        "email": "svvttest351@outlook.com",
+        "smokeEmail": "svvttest370@outlook.com"
+    },
+    "credentials": {
+        "name": "Tarik",
+        "last_name": "Karahodzic",
+        "password": "svvttest123",
+        "phone": "+38761234567"
+    },
+    "newData":{
+        "newName": "Benjamin"
+    },
+    "address": {
+        "address": "Aleja lipa 66, 71000 Sarajevo"
+    },
+    "verification_message": {
+        "registartion_message": "Your account has been created."
+    },
+    "foods": {
+        "food": "pizza"
+    },
+    "payment": {
+        "cardName": "Tarik Karahodzic",
+        "cardNumber": "1234567812345678",
+        "mmyy": "12/28",
+        "ccv": "234"
+    },
+    "partner": {
+        "city": "Sarajevo",
+        "company": "Test Company",
+        "partnerName": "Test",
+        "partnerSurname": "Testing",
+        "partnerEmail": "testtest111@outlook.com",
+        "number": "610001111"
+    }
+}
